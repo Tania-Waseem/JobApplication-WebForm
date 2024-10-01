@@ -21,7 +21,7 @@
         </div>
         <div class="mb-3">
             <label for="phone" class="form-label">Phone Number</label>
-            <input type="tel" class="form-control" id="phone" placeholder="123-456-7890" required>
+            <input type="tel" class="form-control" id="phone" placeholder="Enter 11 digit phone number" pattern="[0-9]{11}" required>
         </div>
         <div class="mb-3">
             <label for="email" class="form-label">Email Address</label>
@@ -44,7 +44,7 @@
         <h4>Resume and Cover Letter</h4>
         <div class="mb-3">
             <label for="resume" class="form-label">Upload Resume</label>
-            <input type="file" class="form-control" id="resume" accept="application/pdf" required>
+            <input type="file" class="form-control" id="resume" required>
         </div>
         <div class="mb-3">
             <label for="coverLetter" class="form-label">Cover Letter</label>
@@ -146,8 +146,6 @@
         <button id="viewApplicationsButton" class="btn btn-secondary">View Applications as Table</button>
 
     </form>
-
-    <button id="viewApplications" class="btn btn-secondary mt-4" style="display:none;">View Applications as Tables</button>
 
     
 </div>
